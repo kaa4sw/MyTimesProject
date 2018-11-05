@@ -1,5 +1,15 @@
-body {
+.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.header-logo {
+  color: MediumAquamarine;
+}
+
+.header-links {
+
 }
