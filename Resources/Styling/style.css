@@ -1,10 +1,7 @@
-nav {
+.header-container {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-
-.header-container {
   border-bottom: 1px solid black;
   display: inline-flex;
   height: 80px;
@@ -34,5 +31,4 @@ nav {
 .header-link {
   padding: 30px;
   display: inline;
-  color: black;
 }
