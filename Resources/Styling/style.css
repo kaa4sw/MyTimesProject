@@ -1,3 +1,7 @@
+a {
+  color: black;
+}
+
 .header-container {
   font-family: Verdana;
   font-size: 14px;
@@ -21,14 +25,18 @@
   align-items: center;
 }
 
+.header-logo img {
+  margin-right: 12px;
+}
+
 .header-nav-bar {
-  display: inline-block;
+  display: flex;
   justify-content: space-around;
-  padding-right: 30px;
-  color: black;
+  padding-right: 40px;
 }
 
 .header-link {
-  padding: 30px;
-  display: inline;
+  padding: 20px 10px;
+  display: inline-block;
+  align-content: center;
 }
