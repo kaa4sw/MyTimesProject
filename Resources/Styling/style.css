@@ -21,15 +21,18 @@ nav {
   padding-left: 30px;
   align-content: center;
   justify-content: center;
+  align-items: center;
 }
 
 .header-nav-bar {
   display: inline-block;
   justify-content: space-around;
   padding-right: 30px;
+  color: black;
 }
 
 .header-link {
   padding: 30px;
   display: inline;
+  color: black;
 }
