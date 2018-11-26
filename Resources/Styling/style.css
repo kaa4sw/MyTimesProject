@@ -1,15 +1,35 @@
-.header {
+nav {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+
+.header-container {
   border-bottom: 1px solid black;
-  display: flex;
+  display: inline-flex;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .header-logo {
   color: MediumAquamarine;
+  display: flex;
+  padding-left: 30px;
+  align-content: center;
+  justify-content: center;
 }
 
-.header-links {
+.header-nav-bar {
+  display: inline-block;
+  justify-content: space-around;
+  padding-right: 30px;
+}
 
+.header-link {
+  padding: 30px;
+  display: inline;
 }
