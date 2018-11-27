@@ -2,10 +2,6 @@ a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -91,6 +87,8 @@ p {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  text-align: left;
+  height: 300px;
 }
 
 .img-2 {
