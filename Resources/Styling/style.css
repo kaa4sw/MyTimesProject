@@ -1,5 +1,6 @@
 a {
   color: black;
+  align-content: center;
 }
 
 p {
@@ -81,19 +82,15 @@ p {
 .img-1 {
   background-image:
     url("../Images/img-story-main.png");
+    background-repeat: no-repeat;
   background-color: transparent;
   display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
-  text-align: left;
-  height: 300px;
 }
 
 .img-2 {
   background-image:
-    url("../Images/img-story-1.png");
+    url("../Images/img-story-1.png") no-repeat;
+    background-repeat: no-repeat;
   background-color: transparent;
   display: flex;
   font-family: Georgia;
@@ -105,18 +102,29 @@ p {
 .img-3 {
   background-image:
     url("../Images/img-story-2.png");
+    background-repeat: no-repeat;
   display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  background-color: transparent;
 }
 
 .img-4 {
   background-image:
     url("../Images/img-story-3.png");
+    background-repeat: no-repeat;
   display: flex;
+}
+
+.img-1 h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  height: 300px;
+}
+
+.img-2 h1,
+.img-3 h1,
+.img-4 h1 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
