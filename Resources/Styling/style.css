@@ -1,6 +1,6 @@
 a {
   color: black;
-  align-items: center;
+  align-content: center;
 }
 
 p {
@@ -9,6 +9,7 @@ p {
   color: black;
   background-color: transparent;
   background-image: none;
+  text-align: left;
 }
 
 .header-container {
@@ -22,6 +23,7 @@ p {
   width: 100%;
   position: fixed;
   align-content: center;
+  align-items: center;
   justify-content: space-between;
   background-color: white;
 }
@@ -91,22 +93,20 @@ p {
     url("../Images/img-story-2.png");
   background-color: transparent;
   display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
 }
 
 .img-3 {
   background-image:
     url("../Images/img-story-3.png");
   display: flex;
+  background-color: transparent;
 }
 
 .img-4 {
   background-image:
     url("../Images/img-story-1.png");
   display: flex;
+  background-color: transparent;
 }
 
 .img-1 h1 {
@@ -126,5 +126,5 @@ p {
   font-size: 30px;
   color: white;
   background-color: transparent;
-  align-items: center;
+  text-align: center;
 }
