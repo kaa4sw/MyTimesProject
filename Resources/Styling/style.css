@@ -1,6 +1,6 @@
 a {
   color: black;
-  align-content: center;
+  align-items: center;
 }
 
 p {
@@ -82,7 +82,6 @@ p {
 .img-1 {
   background-image:
     url("../Images/img-story-main.png");
-    background-repeat: no-repeat;
   background-color: transparent;
   display: flex;
 }
@@ -90,7 +89,6 @@ p {
 .img-2 {
   background-image:
     url("../Images/img-story-1.png") no-repeat;
-    background-repeat: no-repeat;
   background-color: transparent;
   display: flex;
   font-family: Georgia;
@@ -102,14 +100,12 @@ p {
 .img-3 {
   background-image:
     url("../Images/img-story-2.png");
-    background-repeat: no-repeat;
   display: flex;
 }
 
 .img-4 {
   background-image:
     url("../Images/img-story-3.png");
-    background-repeat: no-repeat;
   display: flex;
 }
 
@@ -130,4 +126,5 @@ p {
   font-size: 30px;
   color: white;
   background-color: transparent;
+  align-items: center;
 }
