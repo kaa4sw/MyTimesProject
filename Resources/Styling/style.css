@@ -3,6 +3,10 @@ a {
   align-content: center;
 }
 
+div {
+  border-bottom: 1px solid black;
+}
+
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -86,6 +90,7 @@ p {
     url("../Images/img-story-main.png");
   background-color: transparent;
   display: flex;
+  height: 300px;
 }
 
 .img-2 {
@@ -93,6 +98,8 @@ p {
     url("../Images/img-story-2.png");
   background-color: transparent;
   display: flex;
+  height: 300px;
+  margin-top: 15px;
 }
 
 .img-3 {
@@ -100,6 +107,8 @@ p {
     url("../Images/img-story-3.png");
   display: flex;
   background-color: transparent;
+  height: 300px;
+  margin-top: 15px;
 }
 
 .img-4 {
@@ -107,6 +116,8 @@ p {
     url("../Images/img-story-1.png");
   display: flex;
   background-color: transparent;
+  height: 300px;
+  margin-top: 15px;
 }
 
 .img-1 h1 {
