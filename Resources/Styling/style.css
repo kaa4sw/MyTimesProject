@@ -91,6 +91,7 @@ p {
   background-color: transparent;
   display: flex;
   height: 300px;
+  align-items: flex-start;
 }
 
 .img-2 {
@@ -100,6 +101,8 @@ p {
   display: flex;
   height: 300px;
   margin-top: 15px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .img-3 {
@@ -109,6 +112,8 @@ p {
   background-color: transparent;
   height: 300px;
   margin-top: 15px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .img-4 {
@@ -119,6 +124,8 @@ p {
   height: 300px;
   margin-top: 15px;
   text-align: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .img-1 h1 {
@@ -139,12 +146,4 @@ p {
   color: white;
   background-color: transparent;
   text-align: center;
-}
-
-#center {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  align-content: center;
 }
